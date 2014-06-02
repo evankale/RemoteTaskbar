@@ -24,3 +24,4 @@ Run:
 - 5) Enter the IP address of the windows machine; leave port as 9999
 - 6) Press "Connect" on client application
 - 7) Server application should say "Connected!" and a list of current tasks should be displayed on android device
+- 8) Tap on a task to open it; press the X on the task to close it
