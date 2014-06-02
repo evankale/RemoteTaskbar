@@ -1,8 +1,8 @@
 RemoteTaskbar
 =============
-By: Evan Kale
-evankale91@gmail.com
-ISeeDeadPixel.com
+- By: Evan Kale
+- evankale91@gmail.com
+- ISeeDeadPixel.com
 
 Summary:
 - Controls Windows tasks on a mobile device.
