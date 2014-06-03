@@ -25,6 +25,7 @@
 #define DLL_NAME "HookDLL.dll"
 
 #define INSTALL_FUNCTION "installEventHook"
+#define INSTALL_FUNCTION_ALT "_installEventHook@4"
 #define UNINSTALL_FUNCTION "uninstallEventHook"
 
 UINT WM_CBTHOOK;
@@ -70,7 +71,12 @@ BOOL HookController::init()
 
 	if(installHookFunction == NULL)
 	{
-		return false;
+		installHookFunction = (installHook)GetProcAddress(hookDllHandle, INSTALL_FUNCTION_ALT);
+
+		if(installHookFunction == NULL)
+		{
+			return false;
+		}
 	}
 
 	uninstallHookFunction = (uninstallHook)GetProcAddress(hookDllHandle, UNINSTALL_FUNCTION);

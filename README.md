@@ -9,7 +9,7 @@ Summary:
 
 Description:
 - This project contains a native Windows application (RemoteTaskbarServer), and an Android application (RemoteTaskbarClient).
-- These two applications communicate using TCP/IP, allowing a user remotely to view, open, and close tasks of a Windows macine on an Android device.
+- These two applications communicate using TCP/IP, allowing a user remotely to view, open, and close tasks of a Windows machine on an Android device.
 
 Build:
 - RemoteTaskbarServer was built with Visual Studio 2010
