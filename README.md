@@ -4,6 +4,12 @@ RemoteTaskbar
 - evankale91@gmail.com
 - ISeeDeadPixel.com
 
+See a demo video here:
+https://youtu.be/Wnj8m1ErJ4g
+
+Blog post:
+http://evankale.blogspot.ca/2015/04/remote-taskbar.html
+
 Summary:
 - Controls Windows tasks on a mobile device.
 
